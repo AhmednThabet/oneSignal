@@ -1,6 +1,5 @@
 import { forwardRef, useMemo } from "react";
 import type { ButtonProps } from "components/types";
-
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {

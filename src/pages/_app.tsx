@@ -1,6 +1,8 @@
+import { useEffect } from "react";
 import type { AppProps } from "next/app";
 import { MainLayout } from "layouts";
 import type { NextPageWithLayout } from "types";
+import Head from "next/head";
 import "../../styles/globals.css";
 
 type AppPropsWithLayout = AppProps & {
